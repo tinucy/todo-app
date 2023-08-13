@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  &__pending {
+    font-size: 20px;
+    align-items: center;
+    color: gray;
+  }
+
+  &__clear {
+    background-color: #8f4de6;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
